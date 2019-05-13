@@ -1,0 +1,44 @@
+//Halaman Utama
+(Done) //1. Membuat Seaching 
+2. membuat CRUD dan menampilkan Visi dan misi (Identitas)
+3. Membuat CRUD pada Slider 
+4. Menampilkan Komentar sesuai Post yang di buka dan membuat sistem komentar
+- Membuat like Sesuai Page halaman 
+5. Membuat Login Ke admin mahasiswa
+
+//Halaman Adminmhs 
+1. Menampilkan data komentar, like, post sesuai session yang ada
+2. Membuat Paginasi yang berada di Pemberitahuan 
+3. Membuat Paginasi yang berada di all post 
+4. Membuat CRUD yang berada pada allpost Mhs
+5. Membuat Paginasi yang berada di Agendamhs
+6. Membuat Paginasi yang berada di Agendamhs
+7. Membuat CRUD yang berada pada Agendamhs
+8. Membuat Logout Di adminmhs
+
+//Halaman Admin
+1. Membuat Login di Admin 
+
+2. Membuat Paginasi di ListPost
+- Menampilkan data pada listpost
+3. Membuat CRUD di listpost
+
+4. Membuat Paginasi Di Kategoripost
+- Menampilkan data pada Kategoripost
+5. Membuat CRUD di Kategoripost
+
+6. Membuat Paginasi di HalamanPost
+- Menampilkan data pada HalamanPost
+7. Membuat CRUD di halamanpost
+
+8. Membuat Paginasi Sliderpost
+- Menampilkan data pada sliderpost
+9. Membuat CRUD di halaman Slidepost
+
+10. Membuat Paginasi Agenda
+- Menampilkan data pada Agenda
+11. Membuat CRUD di halaman Agenda
+
+12. Membuat Logout admin
+
+Membuat Kompresi Imagi menjadi kecil

@@ -1,0 +1,45 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+$route['kategori/(:any)'] = 'welcome/daftar/$1';
+$route['halaman'] = 'welcome/halaman';
+$route['agenda'] = 'welcome/daftar/Agenda';
+$route['agenda/(:num)'] = 'welcome/daftar/Agenda/$1';
+$route['agenda/(:any)'] = 'welcome/agenda/$1';	
+$route['daftar/(:any)'] = 'welcome/daftar/$1';
+$route['hasil_search/(:any)'] = 'Welcome/hasil_search/$1';
+$route['hasil_search/(:any)/(:any)'] = 'Welcome/hasil_search/$1/$2';
+$route['penulis/(:any)'] = 'welcome/mhs_aktif/$1';
+$route['penulis/(:any)/(:any)'] = 'welcome/mhs_aktif/$1/$2';
+$route['kategori/(:any)'] = 'welcome/daftar/$1';
+$route['kategori/(:any)/(:num)'] = 'welcome/daftar/$1';
+$route['hasil_search'] = 'welcome/hasil_search';
+$route['list_agenda'] = 'welcome/list_agenda';
+$route['single/(:any)'] = 'welcome/single/$1';
+$route['like/(:any)'] = 'welcome/single/$1';
+$route['Pagemhs'] = 'Pagemhs/adminmhs';
+$route['pagemhs'] = 'Pagemhs/adminmhs';
+$route['allpostmhs'] = 'pagemhs/allpostmhs';
+$route['allagendamhs'] = 'pagemhs/allagendamhs';
+$route['addagendamhs'] = 'pagemhs/addagendamhs';
+$route['editagendamhs'] = 'pagemhs/editagendamhs';
+$route['addpostmhs'] = 'pagemhs/addpostmhs';
+$route['editpostmhs'] = 'pagemhs/editpostmhs';
+$route['pemberitahuanmhs'] = 'pagemhs/pemberitahuanmhs';
+$route['admin'] = 'admin/index';
+$route['admin/allpost'] = 'admin/allpost';
+$route['admin/allpost/(:any)'] = 'admin/allpost/$1';
+$route['admin/allhalaman'] = 'admin/allhalaman';
+$route['admin/allslider'] = 'admin/allslider';
+$route['admin/allagenda'] = 'admin/allagenda';
+
+$route['admin/allagenda/(:any)'] = 'admin/allagenda/$1';
+
+$route['admin/addhalaman'] = 'admin/addhalaman';
+$route['admin/addslider'] = 'admin/addslider';
+$route['admin/addagenda'] = 'admin/addagenda';
+$route['admin/kategoripost'] = 'admin/kategoripost';
+$route['admin/addpost'] = 'admin/addpost';
+$route['admin/tataletak'] = 'admin/tataletak';
+$route['default_controller'] = 'welcome';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
